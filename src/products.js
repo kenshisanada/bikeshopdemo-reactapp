@@ -8,24 +8,32 @@ export const PRODUCTS = [
         id:1,
         productName: "Bike A",
         price: 999.0,
-        productImage: BikeA,
+        productImage: {
+            src:BikeA,
+            alt:"Bike A image"}
     },
     {
         id:2,
         productName: "Bike B",
         price: 2000.0,
-        productImage: BikeB,
+        productImage: {
+            src:BikeB,
+            alt:"Bike B image"}
     },
     {
         id:3,
         productName: "Bike C",
         price: 1000.0,
-        productImage: BikeC,
+        productImage: {
+            src:BikeC,
+            alt:"Bike C image"}
     },
     {
         id:4,
         productName: "Bike D",
         price: 800.0,
-        productImage: BikeD,
+        productImage: {
+            src:BikeD,
+            alt:"Bike D image"}
     },
 ];
